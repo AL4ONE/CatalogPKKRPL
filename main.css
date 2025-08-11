@@ -73,7 +73,8 @@ hr {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 400px;
-    gap: 20px;
+    gap: 8px;
+    row-gap: 20px;
     padding: 10px;
 }
 
