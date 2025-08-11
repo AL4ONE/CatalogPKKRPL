@@ -442,3 +442,117 @@ margin-top: 1rem;
 .hide{
     display: none !important;
 }
+
+.kelompok1, .kelompok2, .kelompok3, .kelompok4, .kelompok5, .kelompok6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kelompok3 .imageBox{
+        width: 226px;
+            height: 320px;
+            background-color: #5a2d82;
+            background: url(poster3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 2px solid #5a2d82;
+            margin-top: 1rem;
+}
+.kelompok1 .imageBox{
+    width: 226px;
+    height: 320px;
+    background-color: #5a2d82;
+    background: url(poster1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #5a2d82;
+    margin-top: 1rem;
+}
+
+.menuSec{
+    margin-top: 2rem;
+    background-color: #5a2d82;
+    border-radius: 10px;
+    width: 90vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.FirstMenu{
+    width: 85vw;
+    background-color: white;
+    height: 200px;
+    margin: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.SecondMenu{
+    width: 85vw;
+    background-color: white;
+    height: 200px;
+    margin: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kelompok3 .FirstMenu .imageMenu{
+    background: url(foodkelompok3.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.kelompok3 .SecondMenu .imageMenu{
+    background: url(drinkkelompok3.jpg);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.descripsiProduct{
+    display: flex;
+    text-align: justify;
+}
+.descripsiProduct p{
+    font-size:12px
+}
+.infoMenu{
+    width: 200px;
+}
+
+.infoMenu h2{
+    position: absolute;
+    top: 20px;
+}
+
+.price{
+    margin-top: 25px;
+    font-weight: bold;
+    position: absolute;
+    font-size: 20px;
+    right: 20px;
+}
+
+.kelompok2 .imageBox{
+        width: 226px;
+            height: 320px;
+            background-color: #5a2d82;
+            background: url(poster2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 2px solid #5a2d82;
+            margin-top: 1rem;
+}
