@@ -1,0 +1,426 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box !important;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fdfaf6;
+    text-align: center;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+
+header {
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #5a2d82;
+    margin: 5px 0;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background: #5a2d82;
+    width: 80%;
+    margin: 10px auto;
+}
+
+
+.toggle-buttons p {
+    width: 100vw;
+        background-color: #5a2d82;
+        margin-bottom: 1rem;
+        color: #fdfaf6;
+        font-weight: bold;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+/* .toggle-buttons button:nth-child(2) {
+    width: 100vw;
+        background-color: #5a2d82;
+        margin-top: 2rem;
+        color: #fdfaf6;
+        font-weight: bold;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+} */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 400px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card1 {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    min-width: 113px;
+    max-width: 113px;
+    max-height: 160px;
+    min-height: 160px;
+    background: url(poster1.jpg);
+    background-size: cover;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+}
+
+
+.card1 .team-name {
+    background: #5a2d82;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card2 {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    min-width: 113px;
+    max-width: 113px;
+    max-height: 160px;
+    min-height: 160px;
+    background: url(poster2.jpg);
+    background-size: cover;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+}
+
+
+
+.card3 {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    min-width: 113px;
+    max-width: 113px;
+    max-height: 160px;
+    min-height: 160px;
+    background: url(poster3.jpg);
+    background-size: cover;
+}
+
+.card3:hover {
+    transform: scale(1.05);
+}
+
+
+.card3 .team-name {
+    background: #5a2d82;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card4 {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    min-width: 113px;
+    max-width: 113px;
+    max-height: 160px;
+    min-height: 160px;
+    background: url(poster4.jpg);
+    background-size: cover;
+}
+
+.card4:hover {
+    transform: scale(1.05);
+}
+
+
+.card4 .team-name {
+    background: #5a2d82;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.card5 {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    min-width: 113px;
+    max-width: 113px;
+    max-height: 160px;
+    min-height: 160px;
+    background: url(poster5.jpg);
+    background-size: cover;
+}
+
+.card5:hover {
+    transform: scale(1.05);
+}
+
+
+.card5 .team-name {
+    background: #5a2d82;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+.card6 {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    min-width: 113px;
+    max-width: 113px;
+    max-height: 160px;
+    min-height: 160px;
+    background: url(poster6.jpg);
+    background-size: cover;
+}
+
+.card6:hover {
+    transform: scale(1.05);
+}
+
+
+.card6 .team-name {
+    background: #5a2d82;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.team-name {
+    background: #5a2d82;
+    /* ungu kayak di gambar lu */
+    color: white;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 144px;
+    border-radius: 30px;
+}
+
+/* Halaman Detail Tim */
+.back-btn {
+    background: #5a2d82;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.detail-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail-poster {
+    width: 85%;
+    max-width: 400px;
+    border-radius: 12px;
+    margin: 20px auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* List Jualan */
+.product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.product-card {
+    background: #ff6f61;
+    color: white;
+    width: 80%;
+    max-width: 350px;
+    padding: 15px;
+    border-radius: 10px;    
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.fade-in {
+    animation: fadeIn 0.4s ease forwards;
+}
+
+.slide-up {
+    animation: slideUp 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.coverHeader{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 200px !important;
+}
+
+
+#content{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.categoryTitle{
+    width: 100vw;
+    background-color: #5a2d82;
+    margin-top: 2rem;
+    color: #fdfaf6;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category_btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+.foodTag{
+    margin-top: 1rem;
+    background-color: #5a2d82;
+    width: 90vw;
+    height: 180px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    border-radius: 1rem;
+    align-items: center;
+    gap: 1rem;
+    overflow: scroll;
+}
+
+
+.foodEach1, .foodEach2, .foodEach3, .foodEach4, .foodEach5{
+    min-width: 140px;
+    height: 120px;
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.food_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodTag h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.category_btn h3{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: -69vw;
+}
+
+.judul_minuman{
+    margin-top: 2rem;
+}
+
+
+.drinkTag{
+margin-top: 1rem;
+    background-color: #5a2d82;
+    width: 90vw;
+    height: 180px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    border-radius: 1rem;
+    align-items: center;
+    gap: 1rem;
+    overflow: scroll;
+}
+
+.drinkEach1, .drinkEach2, .drinkEach3, .drinkEach4, .drinkEach5{
+    min-width: 140px;
+        height: 120px;
+        background-color: white;
+        border-radius: .5rem;
+}
