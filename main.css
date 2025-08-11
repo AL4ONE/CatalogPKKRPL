@@ -430,3 +430,9 @@ margin-top: 1rem;
         background-color: white;
         border-radius: .5rem;
 }
+
+@media screen and (min-width: 400px) {
+    .grid {
+        gap: 20px;
+    }
+}
