@@ -7,7 +7,6 @@
 
 html{
        overflow-x: hidden;
-        max-width: 100%;
 }
 
 body {
@@ -16,7 +15,6 @@ body {
     background: #fdfaf6;
     text-align: center;
     overflow-x: hidden;
-        max-width: 100%;
 }
 
 body::-webkit-scrollbar{
@@ -49,7 +47,7 @@ hr {
 
 
 .toggle-buttons p {
-    width: 100%;
+    width: 100vw;
         background-color: #5a2d82;
         margin-bottom: 1rem;
         color: #fdfaf6;
@@ -329,7 +327,7 @@ hr {
 }
 
 .coverHeader{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,7 +338,7 @@ img{
 
 
 #content{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,7 +346,7 @@ img{
 }
 
 .categoryTitle{
-        width: 100%;
+    width: 100vw;
     background-color: #5a2d82;
     margin-top: 2rem;
     color: #fdfaf6;
@@ -364,7 +362,7 @@ img{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .foodTag{
