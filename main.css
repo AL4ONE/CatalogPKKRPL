@@ -591,6 +591,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    background-position-y: -45px
 }
 
 .kelompok2 .FirstMenu .imageMenu {
