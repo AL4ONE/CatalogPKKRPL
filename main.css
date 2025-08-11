@@ -436,3 +436,9 @@ margin-top: 1rem;
         gap: 20px;
     }
 }
+
+
+
+.hide{
+    display: none !important;
+}
