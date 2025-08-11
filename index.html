@@ -13,18 +13,19 @@
     <!-- HEADER -->
     <header>
         <div class="coverHeader">
-            <img src="image.png" alt="Logo">
+            <img src="headLogo.png" alt="Logo">
         </div>
         <hr>
     </header>
     <div class="toggle-buttons">
         <p id="btnTeam">Team Group</p>
+        <button class="btnBack hide">Back</button>
     </div>
 
     <!-- CONTENT -->
     <main id="content">
 
-        <section class="main_section">
+        <section class="main_section view">
             <div class="grid">
                 <div class="card1">
                     <div class="team-name">Team 1</div>
@@ -56,6 +57,8 @@
                     <div class="foodEach3"></div>
                     <div class="foodEach4"></div>
                     <div class="foodEach5"></div>
+                    <div class="foodEach6"></div>
+                    <div class="foodEach7"></div>
                 </div>
                 <h3 class="judul_minuman">Minuman</h3>
                 <div class="drinkTag">
@@ -73,51 +76,70 @@
 
             <div class="menuSec">
                 <div class="FirstMenu">
-                    <div class="imageMenu"></div>
+                    <div class="imageMenu">
+
+                    </div>
                     <div class="infoMenu">
-                        <h2>Nama makanan</h2>
+                        <h2>PUDDING LAVA</h2>
                         <div class="descripsiProduct">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor minus hic nihil modi
-                                provident quos adipisci natus aperiam accusamus.</p>
+                            <p>Pudding Lava, Makanan Khas camilan yang beragam dengan sekali suap, dengan kelembutan
+                                yang lezat dan bikin ketagihan
+                                yang berarti. Dan Memberikan sensasi krim pada bagian Fla dan gigitan pada Biskuit.</p>
                         </div>
-                        <p>Price</p>
+                        <p class="price">Rp 6.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menuSec">
+                <div class="SecondMenu">
+                    <div class="imageMenu">
+
+                    </div>
+                    <div class="infoMenu">
+                        <h2>MILKYTIME</h2>
+                        <div class="descripsiProduct">
+                            <p>MilkyTime, susu dengan varian rasa yang bermacam macam, membuat menggoda & kelihatan
+                                segar setelah di coba nya dengan
+                                sensasi yang beragam</p>
+                        </div>
+                        <p class="price">Rp 8.000</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="kelompok2 hide">
-                    <div class="imageBox"></div>
-                    
-                    <div class="menuSec">
-                        <div class="FirstMenu">
-                            <div class="imageMenu">
-                    
-                            </div>
-                            <div class="infoMenu">
-                                <h2>Mie Jambak</h2>
-                                <div class="descripsiProduct">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor minus hic nihil modi
-                                        provident adipisicing elit. Culpa, dolorem? adipisci natus aperiam accusamus.</p>
-                                </div>
-                                <p class="price">Rp 12.000</p>
-                            </div>
-                        </div>
+            <div class="imageBox"></div>
+
+            <div class="menuSec">
+                <div class="FirstMenu">
+                    <div class="imageMenu">
+
                     </div>
-                    <div class="menuSec">
-                        <div class="FirstMenu">
-                            <div class="imageMenu">
-                    
-                            </div>
-                            <div class="infoMenu">
-                                <h2>Mie Jambak</h2>
-                                <div class="descripsiProduct">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolor minus hic nihil modi
-                                        provident adipisicing elit. Culpa, dolorem? adipisci natus aperiam accusamus.</p>
-                                </div>
-                                <p class="price">Rp 12.000</p>
-                            </div>
+                    <div class="infoMenu">
+                        <h2>Bar-Bar Bakar</h2>
+                        <div class="descripsiProduct">
+                            <p>Sosis bakar dengan rasa yang gurih, smoky serta sedikit pedas dan memiliki tekstur kenyal, lembut serta berserat.
+                            Membuat anda enjoyable ketika memakannya!</p>
                         </div>
+                        <p class="price">Rp 7.000</p>
                     </div>
+                </div>
+            </div>
+            <div class="menuSec">
+                <div class="SecondMenu">
+                    <div class="imageMenu">
+
+                    </div>
+                    <div class="infoMenu">
+                        <h2>Air Mejik</h2>
+                        <div class="descripsiProduct">
+                            <p>Minuman segar dengan perpaduan rasa perisa leci, dan tambahan jelly magik didalamnya. Membuat anda fresh kembali, ketika
+                            cuaca sedang terik!</p>
+                        </div>
+                        <p class="price">Rp 5.000</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="kelompok3 hide">
             <div class="imageBox"></div>
@@ -130,8 +152,9 @@
                     <div class="infoMenu">
                         <h2>Mie Jambak</h2>
                         <div class="descripsiProduct">
-                            <p>Mie kenyal dengan bumbu pedas gurih, disajikan dengan topping spesial, potongan ayam suwir, dan taburan bawang goreng
-                            wangi yang menggoda selera! 🌶🔥</p>
+                            <p>Mie kenyal dengan bumbu pedas gurih, disajikan dengan topping spesial, potongan ayam
+                                suwir, dan taburan bawang goreng
+                                wangi yang menggoda selera! 🌶🔥</p>
                         </div>
                         <p class="price">Rp 12.000</p>
                     </div>
@@ -145,8 +168,9 @@
                     <div class="infoMenu">
                         <h2>Es Kuwut</h2>
                         <div class="descripsiProduct">
-                            <p>Minuman segar perpaduan kelapa muda, biji selasih, jeruk nipis, dan sirup melon yang nyegerin banget, cocok banget buat
-                            cuaca panas! 🍈❄</p>
+                            <p>Minuman segar perpaduan kelapa muda, biji selasih, jeruk nipis, dan sirup melon yang
+                                nyegerin banget, cocok banget buat
+                                cuaca panas! 🍈❄</p>
                         </div>
                         <p class="price">Rp 7.000</p>
                     </div>
@@ -154,17 +178,116 @@
             </div>
         </section>
         <section class="kelompok4 hide">
+            <div class="imageBox"></div>
 
+            <div class="menuSec">
+                <div class="FirstMenu">
+                    <div class="imageMenu">
+
+                    </div>
+                    <div class="infoMenu">
+                        <h2>Lumpia Telur</h2>
+                        <div class="descripsiProduct">
+                            <p>Lumpia berkulit tipis dan renyah dengan isian telur serta sayuran segar, dibumbui pas dan
+                                digoreng hingga keemasan.
+                                Cocok disantap hangat-hangat dengan pilihan saus pedas, manis, atau keju.</p>
+                        </div>
+                        <p class="price">Rp 7.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menuSec">
+                <div class="SecondMenu">
+                    <div class="imageMenu">
+
+                    </div>
+                    <div class="infoMenu">
+                        <h2>Otak-Otak Goreng</h2>
+                        <div class="descripsiProduct">
+                            <p>Camilan berbahan ikan segar dengan cita rasa gurih khas, digoreng hingga garing di luar
+                                namun lembut di dalam. Makin
+                                nikmat disantap bersama saus kacang kental atau sambal pedas.</p>
+                        </div>
+                        <p class="price">Rp 5.000</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="kelompok5 hide">
+            <div class="imageBox"></div>
 
+            <div class="menuSec">
+                <div class="FirstMenu">
+                    <div class="imageMenu">
+
+                    </div>
+                    <div class="infoMenu">
+                        <h2>Mie Roll</h2>
+                        <div class="descripsiProduct">
+                            <p>Mie enak dibentuk jadi roll cantik, dibumbui gurih pedas yang pas di lidah, lalu ditaburi
+                                nori kering biar ada sensasi
+                                gurih khas rumput laut. Cocok banget buat camilan santai kapan aja!</p>
+                        </div>
+                        <p class="price">Rp 9.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menuSec">
+                <div class="SecondMenu">
+                    <div class="imageMenu">
+
+                    </div>
+                    <div class="infoMenu">
+                        <h2>Dalgona</h2>
+                        <div class="descripsiProduct">
+                            <p>Minuman kekinian dengan kopi kocok lembut di atas susu segar. Rasa manisnya pas,
+                                teksturnya creamy, bikin nagih dari
+                                tegukan pertama!</p>
+                        </div>
+                        <p class="price">Rp 9.000</p>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="kelompok6 hide">
+            <div class="imageBox"></div>
 
+            <div class="menuSec">
+                <div class="FirstMenu">
+                    <div class="imageMenu">
+
+                    </div>
+                    <div class="infoMenu">
+                        <h2>Bitetoast</h2>
+                        <div class="descripsiProduct">
+                            <p>Tersedia dalam 3 varian rasa favorit: Coklat, Keju, dan Stroberi. Lezat, praktis, dan cocok untuk cemilan
+                            di segala waktu!</p>
+                        </div>
+                        <p class="price">Rp 8.000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menuSec">
+                <div class="SecondMenu">
+                    <div class="imageMenu">
+
+                    </div>
+                    <div class="infoMenu">
+                        <h2>LemonTea</h2>
+                        <div class="descripsiProduct">
+                            <p>Sruput sekali, fresh seharian! Ice Lemon Tea 3K yang bikin nagih!</p>
+                        </div>
+                        <p class="price">Rp 3.000</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
-
+    
+        <footer class="footer">
+            <a href="https://www.instagram.com/nexontech57/"><img src="footer.png" alt=""></a>
+        </footer>
 
 
 
