@@ -629,6 +629,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    background-position-y: -20px
 }
 
 .kelompok4 .FirstMenu .imageMenu {
@@ -638,6 +639,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    background-position-y: -10px
 }
 
 .kelompok4 .SecondMenu .imageMenu {
@@ -647,6 +649,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    background-position-y: -10px
 }
 
 .kelompok5 .FirstMenu .imageMenu {
@@ -656,6 +659,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    background-position-y: -20px
 }
 
 .kelompok5 .SecondMenu .imageMenu {
@@ -682,6 +686,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+    background-position-y: -20px
 }
 
 
@@ -735,18 +740,21 @@ img {
     background: url(foodKelompok4.jpg);
     background-size: cover;
     border: 2px white solid;
+    background-position-y:-20px
 }
 
 .foodEach5 {
     background: url(food2Kelompok4.jpg);
     background-size: cover;
     border: 2px white solid;
+    background-position-y: -20px
 }
 
 .foodEach6 {
 background: url(foodKelompok5.jpg);
     background-size: cover;
     border: 2px white solid;
+    background-position-y: -50px
 }
 
 .foodEach7 {
