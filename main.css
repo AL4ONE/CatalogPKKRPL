@@ -1,26 +1,24 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box !important;
-
 }
 
-html{
+html,
+body {
+    max-width: 100%;
     overflow-x: hidden;
 }
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
     background: #fdfaf6;
     text-align: center;
-    overflow-x: hidden;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     display: none;
 }
-
 
 header {
     padding: 10px;
@@ -45,170 +43,32 @@ hr {
     margin: 10px auto;
 }
 
-
 .toggle-buttons p {
-    width: 100vw;
-        background-color: #5a2d82;
-        margin-bottom: 1rem;
-        color: #fdfaf6;
-        font-weight: bold;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    width: 100%;
+    background-color: #5a2d82;
+    margin-bottom: 1rem;
+    color: #fdfaf6;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* .toggle-buttons button:nth-child(2) {
-    width: 100vw;
-        background-color: #5a2d82;
-        margin-top: 2rem;
-        color: #fdfaf6;
-        font-weight: bold;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-} */
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 400px;
     gap: 20px;
     padding: 10px;
+    margin: 0 auto;
 }
 
-.card1 {
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.2s ease;
-    min-width: 113px;
-    max-width: 113px;
-    max-height: 160px;
-    min-height: 160px;
-    background: url(poster1.jpg);
-    background-size: cover;
-}
-
-.card1:hover {
-    transform: scale(1.05);
-}
-
-
-.card1 .team-name {
-    background: #5a2d82;
-    color: white;
-    padding: 6px;
-    font-size: 14px;
-    text-align: center;
-}
-
-.card2 {
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.2s ease;
-    min-width: 113px;
-    max-width: 113px;
-    max-height: 160px;
-    min-height: 160px;
-    background: url(poster2.jpg);
-    background-size: cover;
-}
-
-.card2:hover {
-    transform: scale(1.05);
-}
-
-
-
-.card3 {
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.2s ease;
-    min-width: 113px;
-    max-width: 113px;
-    max-height: 160px;
-    min-height: 160px;
-    background: url(poster3.jpg);
-    background-size: cover;
-}
-
-.card3:hover {
-    transform: scale(1.05);
-}
-
-
-.card3 .team-name {
-    background: #5a2d82;
-    color: white;
-    padding: 6px;
-    font-size: 14px;
-    text-align: center;
-}
-
-.card4 {
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.2s ease;
-    min-width: 113px;
-    max-width: 113px;
-    max-height: 160px;
-    min-height: 160px;
-    background: url(poster4.jpg);
-    background-size: cover;
-}
-
-.card4:hover {
-    transform: scale(1.05);
-}
-
-
-.card4 .team-name {
-    background: #5a2d82;
-    color: white;
-    padding: 6px;
-    font-size: 14px;
-    text-align: center;
-}
-
-.card5 {
-    background: white;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.2s ease;
-    min-width: 113px;
-    max-width: 113px;
-    max-height: 160px;
-    min-height: 160px;
-    background: url(poster5.jpg);
-    background-size: cover;
-}
-
-.card5:hover {
-    transform: scale(1.05);
-}
-
-
-.card5 .team-name {
-    background: #5a2d82;
-    color: white;
-    padding: 6px;
-    font-size: 14px;
-    text-align: center;
-}
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
 .card6 {
     background: white;
     border-radius: 10px;
@@ -220,26 +80,44 @@ hr {
     max-width: 113px;
     max-height: 160px;
     min-height: 160px;
-    background: url(poster6.jpg);
     background-size: cover;
 }
 
+.card1 {
+    background-image: url(poster1.jpg);
+}
+
+.card2 {
+    background-image: url(poster2.jpg);
+}
+
+.card3 {
+    background-image: url(poster3.jpg);
+}
+
+.card4 {
+    background-image: url(poster4.jpg);
+}
+
+.card5 {
+    background-image: url(poster5.jpg);
+}
+
+.card6 {
+    background-image: url(poster6.jpg);
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
 .card6:hover {
     transform: scale(1.05);
 }
 
-
-.card6 .team-name {
-    background: #5a2d82;
-    color: white;
-    padding: 6px;
-    font-size: 14px;
-    text-align: center;
-}
-
 .team-name {
     background: #5a2d82;
-    /* ungu kayak di gambar lu */
     color: white;
     padding: 5px 0;
     font-weight: bold;
@@ -248,7 +126,6 @@ hr {
     border-radius: 30px;
 }
 
-/* Halaman Detail Tim */
 .back-btn {
     background: #5a2d82;
     color: white;
@@ -274,7 +151,6 @@ hr {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* List Jualan */
 .product-list {
     display: flex;
     flex-direction: column;
@@ -290,7 +166,7 @@ hr {
     width: 80%;
     max-width: 350px;
     padding: 15px;
-    border-radius: 10px;    
+    border-radius: 10px;
     font-size: 16px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     text-align: center;
@@ -326,27 +202,27 @@ hr {
     }
 }
 
-.coverHeader{
-    width: 100vw;
+.coverHeader {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-img{
+
+img {
     width: 200px !important;
 }
 
-
-#content{
-    width: 100vw;
+#content {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.categoryTitle{
-    width: 100vw;
+.categoryTitle {
+    width: 100%;
     background-color: #5a2d82;
     margin-top: 2rem;
     color: #fdfaf6;
@@ -357,75 +233,60 @@ img{
     align-items: center;
 }
 
-.category_btn{
+.category_btn {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
-.foodTag{
+.foodTag,
+.drinkTag {
     margin-top: 1rem;
     background-color: #5a2d82;
-    width: 90vw;
+    width: 90%;
     height: 180px;
     display: flex;
     padding-left: 20px;
     align-items: center;
     border-radius: 1rem;
-    align-items: center;
     gap: 1rem;
-    overflow: scroll;
+    overflow-x: auto;
 }
 
-
-.foodEach1, .foodEach2, .foodEach3, .foodEach4, .foodEach5{
+.foodEach1,
+.foodEach2,
+.foodEach3,
+.foodEach4,
+.foodEach5,
+.drinkEach1,
+.drinkEach2,
+.drinkEach3,
+.drinkEach4,
+.drinkEach5 {
     min-width: 140px;
     height: 120px;
     background-color: white;
     border-radius: .5rem;
 }
 
-.food_box{
+.food_box {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.foodTag h3{
+.foodTag h3,
+.category_btn h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.category_btn h3{
-    margin-top: 10px;
-    margin-bottom: -10px;
-    margin-left: -69vw;
+.category_btn h3 {
+    margin-left: 0;
 }
 
-.judul_minuman{
+.judul_minuman {
     margin-top: 2rem;
-}
-
-
-.drinkTag{
-margin-top: 1rem;
-    background-color: #5a2d82;
-    width: 90vw;
-    height: 180px;
-    display: flex;
-    padding-left: 20px;
-    align-items: center;
-    border-radius: 1rem;
-    align-items: center;
-    gap: 1rem;
-    overflow: scroll;
-}
-
-.drinkEach1, .drinkEach2, .drinkEach3, .drinkEach4, .drinkEach5{
-    min-width: 140px;
-        height: 120px;
-        background-color: white;
-        border-radius: .5rem;
 }
